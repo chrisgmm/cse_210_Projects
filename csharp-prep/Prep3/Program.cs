@@ -6,7 +6,7 @@ class Program
     {
         int guess = 0;
         //int magic = 5;
-        //Console.WriteLine("What is the magic number?");
+        Console.WriteLine("What is the magic number?");
         Random choice = new Random();
         int magic = choice.Next(1,100);
         while (guess != magic)
